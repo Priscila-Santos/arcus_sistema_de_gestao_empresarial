@@ -1,0 +1,33 @@
+# Arquivos compilados e executaveis
+
+bin/.exe
+bin/sistema
+bin/ferramenta_dados
+obj/.o
+*.o
+*.exe
+
+# Arquivos de dados gerados em tempo de execucao
+
+data/*.dat
+!data/.gitkeep
+bin/.gitkeep
+obj/.gitkeep
+
+# Exportacoes e relatorios gerados localmente
+
+data/export/
+*.csv
+
+# Arquivos temporarios
+
+*.tmp
+*.swp
+*~
+
+# Arquivos de configuracao de IDEs / Editores
+
+.vscode/
+.idea/
+.vcxproj
+*.sln
