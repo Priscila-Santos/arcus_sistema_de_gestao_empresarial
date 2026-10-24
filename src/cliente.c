@@ -55,7 +55,13 @@ int buscaBinariaCliente(const Cliente *v, int ini, int fim, int codigo) {
           5*10 + 2*9 + 9*8 + 9*7 + 8*6 + 2*5 + 2*4 + 4*3 + 7*2 = 295
      2) resto = soma % 11                      ->  295 % 11 = 9
      3) se resto < 2 o digito e 0, senao e 11 - resto  ->  11 - 9 = 2
-   Para o 2o digito repete-se com n = 10 (inclui o 1o digito, pesos 11 a 2). */
+   Para o 2o digito repete-se com n = 10 (inclui o 1o digito, pesos 11 a 2).
+    1) 5*11 + 2*10 + 9*9 + 9*8 + 8*7 + 2*6 + 2*5 + 4*4 + 7*3 + 2*2 = 347
+    2) resto = 347 % 11 = 6
+    3) resto >= 2, entao digito = 11 - 6 = 5
+   Resultado final: 529.982.247-25
+   */
+
 static int calcularDigitoCPF(const char *cpf, int n) {
     int soma = 0;
     int peso = n + 1;

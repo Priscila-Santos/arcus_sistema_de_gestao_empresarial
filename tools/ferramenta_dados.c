@@ -19,7 +19,7 @@
 
 /* ==========================================================
    ferramenta_dados.c
-   Programa AUXILIAR (separado do sistema Arcus) para facilitar testes:
+   Programa AUXILIAR para facilitar testes:
 
      ferramenta_dados popular [clientes produtos vendas] [--sim]
          Gera dados de exemplo (clientes, produtos e vendas) e grava na

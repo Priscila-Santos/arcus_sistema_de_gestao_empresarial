@@ -34,8 +34,7 @@ void inicializarTerminal(void) {
 }
 
 /* Limpa a tela com sequencias ANSI (home + apagar tela + apagar historico).
-   Vantagem sobre system("cls"/"clear"): funciona igual no PowerShell, no
-   terminal MSYS2 (mintty), no Linux e no macOS, e nao abre outro processo. */
+   Vantagem sobre system("cls"/"clear"): funciona igual no PowerShell, no terminal MSYS2 (mintty), no Linux e no macOS, e nao abre outro processo. */
 void limparTela(void) {
     if (usarCls) {
         system("cls");

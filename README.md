@@ -101,7 +101,7 @@ sistema_gerenciamento_empresarial/
 Abra o terminal do seu sistema operacional e execute:
 
 ```bash
-git clone https://github.com/seu-usuario/sistema_gerenciamento_empresarial.git
+git clone https://github.com/Priscila-Santos/arcus_sistema_de_gestao_empresarial
 cd sistema_gerenciamento_empresarial
 ```
 

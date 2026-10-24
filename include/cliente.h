@@ -46,7 +46,7 @@ Cliente *carregarClientes(int *total);
 int salvarClientes(Cliente *v, int total);
 
 /* RECURSAO: busca binaria recursiva por codigo em vetor ordenado.
-   Retorna o indice encontrado ou -1. Chame com ini = 0, fim = total - 1. */
+   Retorna o indice encontrado ou -1. Chama com ini = 0, fim = total - 1. */
 int buscaBinariaCliente(const Cliente *v, int ini, int fim, int codigo);
 
 /* Valida CPF (11 digitos; confere digitos verificadores se habilitado). */
