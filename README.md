@@ -66,8 +66,6 @@ Para manter os dados salvos após o encerramento do programa, o sistema faz uso 
 sistema_gerenciamento_empresarial/
 ├── Makefile                # Roteiro automatizado de compilação
 ├── README.md               # Documentação principal
-├── RELATORIO.md            # Relatório técnico e decisões de projeto
-├── GUIA_APRESENTACAO.md    # Guia para apresentação e perguntas/respostas
 ├── include/                # Declarações e protótipos (.h)
 │   ├── arquivo.h
 │   ├── cliente.h
